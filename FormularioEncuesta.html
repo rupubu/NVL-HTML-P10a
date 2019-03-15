@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Práctica de Formularios (II)</title>
+  </head>
+  <body>
+    <h1 align="center">Práctica de Formularios (II)</h1>
+
+    <form class="frmEncuesta" action="FormularioEncuesta.html" method="post">
+      <table align="center">
+        <caption><h3 align="center">Encuesta personal</h3></caption>
+        <tr>
+          <td><label for="CP">Código Postal</label></td>
+          <td><input type "number" name="CP" value=""></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="SATISFACCION">Satisfacción</label>
+          </td>
+          <td>
+            <select name="SATISFACCION">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="EMAIL">Correo electrónico</label></td>
+          <td><input type="text" name="EMAIL" value=""></td>
+        </tr>
+        <tr>
+          <td><label for="COMENTARIOS">Comentarios</label></td>
+          <td><input type="textarea" name="COMENTARIOS" value=""></td>
+        </tr>
+        <tr>
+          <td>Facilidad de uso</td>
+          <td>
+            <select name="Uso">
+              <option value="1">Excelente</option>
+              <option value="2">Bueno</option>
+              <option value="3">Regular</option>
+              <option value="4">Excelente</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Comodidad</td>
+          <td>
+             <input type="radio" name="Comodidad" value="1">Excelente
+              <input type="radio" name="Comodidad" value="2">Bueno
+              <input type="radio" name="Comodidad" value="3">Regular
+              <input type="radio" name="Comodidad" value="4">Excelente
+          </td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Enviar"></td>
+        </tr>
+        </table>
+    </form>
+
+  </body>
+</html>
